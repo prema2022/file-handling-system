@@ -1,0 +1,57 @@
+body{
+    
+	background: #ffffff;
+	color:azure;
+}
+
+div{
+	
+}
+h1{
+    text-align: center;
+    color: black;
+}
+
+button {
+    background-color: #ffffff;
+    color: green;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(to right, #155799, #159957);  
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+} 
+
+label{
+	position: absolute;
+	z-index: auto; 
+}
+
+input{
+	align-content: center;
+}
+
+label.btn-block {
+    text-align: left;
+    position: relative
+}
+
+
